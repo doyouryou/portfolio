@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base target="_top">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <a class="navbar-brand" href="#">TOP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse mt-0" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">自己紹介 <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#experience">実務経験</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#language">勉強していること</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pr">自己PR</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+   <div class="jumbotron ml-3 mr-3" id="about">
+     <h1>About Me</h1>
+     塚本悠のポートフォリオです。ご覧ください。<br><br>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  自己紹介はこちら
+</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">塚本　悠（Tsukamoto Yu）</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <li>1997年生まれ22才</li>
+        <li>2019年6月アンドロボット株式会社入社</li>
+        <li>研修後、公営競技向けホームページ運用業務</li>
+        <li>若さと成長意欲で勝負します</li>
+        <li>NBAと小説と映画が好き</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+   </div>
+
+   <div id="experience"class="alert-secondary mb-3 ml-3 mr-3" role="alert">
+  <h4 class="alert-heading pt-3 pl-3">実務経験</h4>
+  <hr>
+  <p class="pl-3 ">現職では公営競技向けホームページの運用をしています。<br>
+  メイン業務はHTMLを使って静的ページの作成または更新や修正<br>
+  開催日程を作成する際にCSSやJavascriptを扱うことも。</p>
+<div class="accordion mt-3" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          インフォワールド
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        現在、業務先で扱っているサイトです。<br>
+        <a href="http://www.infoworld.co.jp/" target="_blank">インフォワールド 公営競技情報</a>に掲載されている全ての場を担当しています。<br>
+        お客様からの掲載依頼に応える形でページを作成しています。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          CMSの利用
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        CMS（WordPress,lekumo,MovableType）を利用している場が複数あります。<br>また、個人でもWordPressも扱っているので、基本的なCMSの利用については問題ありません。
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          画像編集、動画編集
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        TOPページのスライドやレースダイジェストのコンテンツ更新も行っているので、PhotoShopやIllustratorも活用しています。<br>
+        レースダイジェストやインタビュー動画はAdobePremiereを使用しています。<br>
+        こちらはメイン業務ではないので頻度は多くありませんが、扱いには慣れています。
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div id="language"class="jumbotron ml-3 mr-3">
+  <h1>言語について</h1>
+  現在学んでいることをご紹介します。<br>成長意欲が高いことが自分の強みだと思っています。<br><br>
+<div class="card-deck ml-3 mr-3 mb-5">
+  <div class="card">
+    <img class="bd-placeholder-img card-img-top" width="100%" height="200" src="images/js.png">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">JavaScript</h5>
+      <p class="card-text">フロントの開発に欠かせないJavaScriptは基本的な構文については理解しております<br>
+      jQueryなどフレームワークを活用したアニメーションなども勉強しています。<br>
+      最近はNode.jsを活用してフロントとバックエンドで同じ言語を使えることが楽しいです。</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="bd-placeholder-img card-img-top" width="100%" height="200" src="images/bs.jpg">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">BootStrap</h5>
+      <p class="card-text">デザインをお手軽に作れてしまうBootstrapはそこまで詳しくありませんが、リファレンスを活用しながら取り入れています。<br>
+      CSSも同じようにレスポンシブの知識も身につけております<br>
+      このページの90%をBootStrapの力で作成しました。</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="bd-placeholder-img card-img-top" width="100%" height="200" src="images/gas.png">
+    <hr>
+    <div class="card-body">
+      <h5 class="card-title">GAS</h5>
+      <p class="card-text">サーバーレスで簡単に使えて、基本ベースがJavaScriptなので使っています。<br>
+      最近はGASを活用してスケジュールを教えてくれるLINEボットを作成しました。<br>
+      グーグルカレンダーと同期して、予定の追加や削除、今週の予定を確認することができます。</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="pr"class="jumbotron ml-3 mr-3">
+<div class="media">
+  <img src="images/icon.jpg"width="64px" alt="">
+  <div class="media-body">
+    <h5 class="mt-0 ml-2">自己PR</h5>
+    <p class="ml-2">自分の何よりの強みは成長力と行動力です。<br>
+    タイピングもままならない1年前から始めて、分からないことがあったら調べることを繰り返しここまでできるようになりました。<br>
+    生まれて初めてHello Worldを出力した時は感動し、そこからWEB系分野を中心に勉強してきました。<br>
+    今はコードを書くことがすごく楽しいので、技術では劣りますが乗り越えられる自信があります<br></p>
+  </div>
+</div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
+</html>
